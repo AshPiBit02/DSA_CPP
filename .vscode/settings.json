@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "files.associations": {
         "*.embeddedhtml": "html",
         "iostream": "cpp",
@@ -44,5 +45,13 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
+=======
+    "terminal.integrated.focusAfterRun": "terminal",
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "ostream": "cpp",
+        "iostream": "cpp"
+>>>>>>> 031d1e3 (Initial commit)
     }
 }
