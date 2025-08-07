@@ -14,13 +14,13 @@ void BubbleSort(vector<int>&vec,int n)
 {
     for(int i=0;i<n;i++)
     {
-        for(int j=i+1;j<n;j++)
+        for(int j=0;j<n-i-1;j++)
         {
             if(vec[i]>vec[j])
             {
-                int temp=vec[i];
-                vec[i]=vec[j];
-                vec[j]=temp;
+                int temp=vec[j];
+                vec[j]=vec[j+1];
+                vec[j+1]=temp;
             }
         }
     }
